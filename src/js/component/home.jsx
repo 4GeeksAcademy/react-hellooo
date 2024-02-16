@@ -6,7 +6,7 @@ import Cards from "./Cards";
 //create your first component
 const Home = (props) => {
 	return <>
-		<div className=" d-flex justify-content-center align-items-center ">
+		<div className=" d-flex justify-content-center align-items-center" >
 			<Cards icon />
 			<Cards num={Math.floor((props.seconds % 1000000) / 100000)} />
 			<Cards num={Math.floor((props.seconds % 100000) / 10000)} />
